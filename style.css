@@ -274,7 +274,7 @@ section {
 
 .dampak-icon-box {
     width: 55px;
-    height: 55px;
+    height: auto;
     border-radius: 12px;
     display: flex;
     align-items: center;
