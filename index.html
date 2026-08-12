@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI & Society | Masa Depan Peradaban</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <nav>
+        <div class="nav-container">
+            <a href="#hero" class="logo">AI<span>&amp;Society</span></a>
+            <ul class="nav-links">
+                <li><a href="#hero">Beranda</a></li>
+                <li><a href="#overview">Tentang</a></li>
+                <li><a href="#dampak">Dampak</a></li>
+                <li><a href="#grafik">Grafik Data</a></li>
+                <li><a href="#solusi">Solusi</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="hero" class="hero">
+        <div class="hero-content">
+            <span class="hero-subtitle">Masa Depan Peradaban</span>
+            <h1>Navigasi Era AI & Robotik dalam Kehidupan Sosial</h1>
+            <p>Kecerdasan Buatan dan robotik menjanjikan efisiensi luar biasa, namun juga membawa tantangan sosial yang mendalam. Bagaimana kita menyikapinya?</p>
+            <div class="hero-buttons">
+                <a href="#dampak" class="btn btn-primary">Jelajahi Dampak</a>
+                <a href="#overview" class="btn btn-outline">Pelajari Lebih Lanjut</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="overview">
+        <div class="container">
+            <div class="section-header">
+                <h2>Revolusi Teknologi di Tengah Kita</h2>
+                <p>Transformasi digital mengubah cara manusia bekerja, berinteraksi, dan hidup secara fundamental.</p>
+            </div>
+            
+            <div class="overview-grid">
+                <div class="overview-card">
+                    <i class="fa-solid fa-brain overview-icon"></i>
+                    <h3>Kecerdasan Buatan (AI)</h3>
+                    <p>Sistem komputer yang mampu belajar, bernalar, dan membuat keputusan layaknya manusia untuk menyelesaikan masalah kompleks.</p>
+                </div>
+                <div class="overview-card">
+                    <i class="fa-solid fa-robot overview-icon"></i>
+                    <h3>Robotik Modern</h3>
+                    <p>Gabungan mesin otonom dan sensor canggih yang mengambil alih tugas fisik di industri, kesehatan, hingga rumah tangga.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="dampak" class="bg-alt">
+        <div class="container">
+            <div class="section-header">
+                <h2>Dampak bagi Sosial Masyarakat</h2>
+                <p>Dua sisi mata uang: peluang emas dan tantangan nyata bagi tatanan sosial di masa depan.</p>
+            </div>
+
+            <div class="dampak-wrapper">
+                <div class="dampak-grid">
+                    <div class="dampak-box dampak-positif">
+                        <h3 class="dampak-title"><i class="fa-solid fa-circle-plus"></i> Dampak Positif</h3>
+                        
+                        <div class="dampak-item">
+                            <div class="dampak-icon-box positif-icon"><i class="fa-solid fa-chart-line"></i></div>
+                            <div class="dampak-item-text">
+                                <h4>Efisiensi & Produktivitas Tinggi</h4>
+                                <p>Automasi mempercepat proses industri dan memangkas waktu pengerjaan tugas repetitif.</p>
+                                <div class="dampak-img-wrap">
+                                    <img src="img/dampak/positif-1.jpg" alt="Ilustrasi efisiensi dan produktivitas melalui automasi AI" class="dampak-img" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="dampak-item">
+                            <div class="dampak-icon-box positif-icon"><i class="fa-solid fa-heart-pulse"></i></div>
+                            <div class="dampak-item-text">
+                                <h4>Kemajuan Medis</h4>
+                                <p>Diagnosis medis lebih akurat, penemuan obat lebih cepat, dan perawatan kesehatan menjangkau area terpencil.</p>
+                                <div class="dampak-img-wrap">
+                                    <img src="img/dampak/positif-2.jpg" alt="Ilustrasi kemajuan medis berbasis AI" class="dampak-img" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="dampak-item">
+                            <div class="dampak-icon-box positif-icon"><i class="fa-solid fa-user-graduate"></i></div>
+                            <div class="dampak-item-text">
+                                <h4>Personalisasi Pendidikan</h4>
+                                <p>AI memungkinkan metode belajar adaptif yang disesuaikan dengan kecepatan pemahaman tiap individu.</p>
+                                <div class="dampak-img-wrap">
+                                    <img src="img/dampak/positif-3.jpg" alt="Ilustrasi personalisasi pendidikan dengan AI" class="dampak-img" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="dampak-box dampak-negatif">
+                        <h3 class="dampak-title"><i class="fa-solid fa-circle-minus"></i> Dampak Negatif</h3>
+                        
+                        <div class="dampak-item">
+                            <div class="dampak-icon-box negatif-icon"><i class="fa-solid fa-user-xmark"></i></div>
+                            <div class="dampak-item-text">
+                                <h4>Disrupsi Lapangan Kerja</h4>
+                                <p>Banyak pekerjaan konvensional terancam tergantikan oleh mesin dan algoritma cerdas.</p>
+                                <div class="dampak-img-wrap">
+                                    <img src="img/dampak/negatif-1.jpg" alt="Ilustrasi disrupsi lapangan kerja akibat automasi" class="dampak-img" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="dampak-item">
+                            <div class="dampak-icon-box negatif-icon"><i class="fa-solid fa-users-slash"></i></div>
+                            <div class="dampak-item-text">
+                                <h4>Penurunan Interaksi Sosial</h4>
+                                <p>Ketergantungan pada perangkat digital berisiko mengurangi empati dan kedekatan emosional antarmanusia.</p>
+                                <div class="dampak-img-wrap">
+                                    <img src="img/dampak/negatif-2.jpg" alt="Ilustrasi penurunan interaksi sosial akibat ketergantungan digital" class="dampak-img" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="dampak-item">
+                            <div class="dampak-icon-box negatif-icon"><i class="fa-solid fa-shield-halved"></i></div>
+                            <div class="dampak-item-text">
+                                <h4>Isu Privasi & Bias Algoritma</h4>
+                                <p>Pengumpulan data masif memicu ancaman privasi serta potensi diskriminasi akibat bias pada sistem AI.</p>
+                                <div class="dampak-img-wrap">
+                                    <img src="img/dampak/negatif-3.jpg" alt="Ilustrasi isu privasi dan bias algoritma AI" class="dampak-img" loading="lazy">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="grafik" class="chart-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Tren Adopsi vs Dampak Sosial (5 Tahun Terakhir)</h2>
+                <p>Mengukur tingkat adaptasi AI di industri dibandingkan dengan eskalasi kekhawatiran masyarakat terhadap privasi dan lapangan kerja.</p>
+            </div>
+            <div class="chart-container">
+                <canvas id="aiChart"></canvas>
+            </div>
+        </div>
+    </section>
+
+    <section id="solusi">
+        <div class="container">
+            <div class="section-header">
+                <h2>Menyongsong Masa Depan Berkelanjutan</h2>
+                <p>Langkah bijak agar teknologi melayani kemanusiaan, bukan sebaliknya.</p>
+            </div>
+            
+            <div class="solusi-grid">
+                <div class="solusi-card">
+                    <i class="fa-solid fa-chalkboard-user"></i>
+                    <h3>Reskilling & Upskilling</h3>
+                    <p>Mempersiapkan tenaga kerja dengan keterampilan baru yang relevan dengan era digital dan teknologi canggih.</p>
+                </div>
+                <div class="solusi-card">
+                    <i class="fa-solid fa-scale-balanced"></i>
+                    <h3>Regulasi yang Tegas</h3>
+                    <p>Pemerintah perlu menetapkan kebijakan etis penggunaan AI demi melindungi hak-hak privasi dan keamanan masyarakat.</p>
+                </div>
+                <div class="solusi-card">
+                    <i class="fa-solid fa-hand-holding-heart"></i>
+                    <h3>Human-Centric Approach</h3>
+                    <p>Memastikan bahwa inovasi teknologi selalu berorientasi pada peningkatan kualitas hidup dan kesejahteraan manusia.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2026 AI & Society Landing Page. Dibuat untuk masa depan yang lebih baik.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
